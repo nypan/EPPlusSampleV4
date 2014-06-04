@@ -32,7 +32,7 @@ namespace EPPlusTestsamples
             // Check Amount 
             var amount = ws.Names["AMOUNT"];
             var a2 = ws.Cells["C5"];
-            Assert.AreEqual(300, amount.Value);
+            Assert.AreEqual(300, amount.Value,"Amount value not correct");
         }
     }
 }
